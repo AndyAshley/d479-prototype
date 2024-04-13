@@ -3,6 +3,7 @@ import MainNavigation from "../components/MainNavigation/MainNavigation";
 import PageHero from "../components/PageHero/PageHero";
 import Footer from "../components/Footer/Footer";
 import GoToTop from "../components/GoToTop/GoToTop";
+import ScrollOnNavigate from "../components/ScrollOnNavigate/ScrollOnNavigate";
 
 const RootLayout = () => {
   return (
@@ -18,6 +19,7 @@ const RootLayout = () => {
       <footer className="w-100">
         <Footer />
       </footer>
+      <ScrollOnNavigate />
     </>
   );
 };
