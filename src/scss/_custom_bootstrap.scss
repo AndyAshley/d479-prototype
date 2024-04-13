@@ -1,0 +1,12 @@
+@import "variables";
+
+$theme-colors: (
+  "primary": $green,
+  "secondary": $orange,
+  "info": $blue,
+  "danger": $orange,
+  "dark": $charcoal,
+  "light": $white,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
