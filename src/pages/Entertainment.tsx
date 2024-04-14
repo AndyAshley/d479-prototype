@@ -7,7 +7,7 @@ const Entertainment = () => {
     {
       image: "entertainment-slide-1.png",
       heading: "Golf",
-      text: "Coming soon to Taniti: a world-class golf coursethat will challenge and delight golfers of all levels. Stay tuned for more details!",
+      text: "Coming soon to Taniti: a world-class golf course that will challenge and delight golfers of all levels. Stay tuned for more details!",
     },
     {
       image: "entertainment-slide-2.png",
