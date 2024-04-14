@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import styles from "./Footer.module.scss";
+import Newsletter from "../Forms/Newsletter";
 
 type year = number;
 
@@ -91,10 +92,10 @@ const Footer = () => {
           <Col
             xs={12}
             md={4}
-            className="d-flex flex-column align-items-center justify-content-center"
+            className="d-flex flex-column"
           >
             <div className="d-flex flex-column">
-              <p className="fw-bold">Explore Taniti</p>
+              <p className="fw-bold mb-1">Explore Taniti</p>
               <NavLink to="/cuisine">Cuisine</NavLink>
               <NavLink to="/lodging">Lodging</NavLink>
               <NavLink to="/entertainment">Entertainment</NavLink>
@@ -102,19 +103,15 @@ const Footer = () => {
               <NavLink to="/transportation">Transportation</NavLink>
             </div>
           </Col>
-          <Col
-            xs={12}
-            md={4}
-            className="d-flex flex-column align-items-center justify-content-center"
-          >
-            <div className="d-flex flex-column">
-              <p className="fw-bold">Additional Links</p>
-              <NavLink to="/faq">FAQ</NavLink>
-              <NavLink to="/contact">Contact Us</NavLink>
-              <a className="pointer">Privacy Policy</a>
-              <a className="pointer">Terms of Service</a>
-              <a className="pointer">Sitemap</a>
-            </div>
+          <Col xs={12} md={4} className="d-flex flex-column">
+            <p className="fw-bold mb-1">Additional Links</p>
+            <NavLink to="/faq">FAQ</NavLink>
+            <NavLink to="/contact" className="mb-3">
+              Contact Us
+            </NavLink>
+            <p className="fw-bold mb-1">Newsletter</p>
+            <p className="mb-2">Sign up for the latest news and updates!</p>
+            <Newsletter />
           </Col>
         </Row>
         <Row className="py-3">

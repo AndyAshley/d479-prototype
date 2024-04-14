@@ -9,4 +9,6 @@ $theme-colors: (
   "light": $white,
 );
 
+$btn-font-weight: bold;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

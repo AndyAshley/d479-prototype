@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 import { Button } from "react-bootstrap";
@@ -58,7 +57,15 @@ const MainNavigation = () => {
               Transportation
             </NavLink>
           </Nav>
-          <Button variant="outline-primary">Book Now</Button>
+          <Button
+            variant="outline-primary"
+            className="mb-2"
+            href="https://www.tripadvisor.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Book Now
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

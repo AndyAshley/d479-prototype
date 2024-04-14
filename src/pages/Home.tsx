@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import FeatureBlock from "../components/FeatureBlock/FeatureBlock";
 
 const Home = () => {
@@ -45,6 +45,23 @@ const Home = () => {
           experience the warm hospitality of our island hosts.
         </p>
       </FeatureBlock>
+      <Container fluid className="py-5 hero-bg home-cta-banner text-center">
+        <h2 className="text-center text-light">Explore Taniti Today</h2>
+        <p className="text-center text-light h4 mb-4">
+          Plan your dream vacation to Taniti and experience the magic of the
+          Pacific.
+        </p>
+        <Button
+          variant="primary"
+          size="lg"
+          className="text-light text-center"
+          href="https://www.tripadvisor.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Book Now
+        </Button>
+      </Container>
       <FeatureBlock
         title="Experience the Island Life"
         image="../images/entertainment-home.png"
