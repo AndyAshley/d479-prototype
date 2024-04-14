@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button, Form, InputGroup } from "react-bootstrap";
 import ThankYouModal from "../ThankYouModal/ThankYouModal";
 
