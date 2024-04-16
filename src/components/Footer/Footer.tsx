@@ -89,11 +89,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col
-            xs={12}
-            md={4}
-            className="d-flex flex-column"
-          >
+          <Col xs={12} md={4} className="d-flex flex-column">
             <div className="d-flex flex-column">
               <p className="fw-bold mb-1">Explore Taniti</p>
               <NavLink to="/cuisine">Cuisine</NavLink>
@@ -118,6 +114,14 @@ const Footer = () => {
           <Col xs={12} className="text-center p-0">
             <small>
               &copy; {currentYear} - Taniti | Discover Your Adventure
+            </small>
+          </Col>
+          <Col xs={12} className="text-center p-0 small">
+            <small>
+              <a href="https://www.linkedin.com/in/andy-ashley-b70539204/">
+                Andy Ashley
+              </a>{" "}
+              // WGU D479 // TypeScript - Vite - SCSS - Bootstrap
             </small>
           </Col>
         </Row>

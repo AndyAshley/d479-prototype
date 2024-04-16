@@ -106,7 +106,7 @@ export const cuisineData: DataEntry[] = [
     description:
       "As the sun dips below the horizon, there’s no better place to be than Sunset Grill. Enjoy Taniti’s freshest catch of the day, grilled to perfection, alongside a selection of locally sourced rice dishes in a setting that offers stunning sunset views.",
     atmosphere:
-      "Relaxed and inviting, with an outdoor seating area that boasts panoramic ocean views.",
+      "Relaxed and inviting, with an outdoor seating area for amazing ocean views.",
     image: "../images/cuisine-7.png",
   },
   {
